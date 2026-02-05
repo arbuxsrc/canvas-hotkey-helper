@@ -183,8 +183,8 @@ module.exports = class CanvasHotkeyHelper extends Plugin {
             }
 
             // Check minimum selection size
-            if (selection.size < 2) {
-                this.showNotice('Please select at least 2 items to create a group');
+            if (selection.size < 1) {
+                this.showNotice('Please select at least 1 item to create a group');
                 return;
             }
 
@@ -199,8 +199,8 @@ module.exports = class CanvasHotkeyHelper extends Plugin {
                 return;
             }
 
-            if (validNodes.length < 2) {
-                this.showNotice(`Only ${validNodes.length} valid node(s) selected. Need at least 2.`);
+            if (validNodes.length < 1) {
+                this.showNotice(`No valid node(s) selected. Need at least 1.`);
                 return;
             }
 
