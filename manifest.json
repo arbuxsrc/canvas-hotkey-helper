@@ -1,0 +1,9 @@
+{
+    "id": "canvas-hotkey-helper",
+    "name": "Canvas Hotkey Helper",
+    "version": "1.0.0",
+    "minAppVersion": "1.1.0",
+    "description": "Adds a command to group selected canvas items.",
+    "author": "arbuxIT",
+    "isDesktopOnly": true
+}
